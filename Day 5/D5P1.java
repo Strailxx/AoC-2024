@@ -18,7 +18,6 @@ public class D5P1 {
             
             while(reader.hasNextLine()){
                 String line = reader.nextLine();
-                System.out.println(line);
                 if(line == ""){
                     readingRules = false;
                     continue;
